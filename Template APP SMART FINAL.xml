@@ -45,7 +45,18 @@
                     <publickey/>
                     <privatekey/>
                     <port/>
-                    <filter>:</filter>
+                    <filter>
+                        <evaltype>0</evaltype>
+                        <formula/>
+                        <conditions>
+                            <condition>
+                                <macro>{#SMART_ENABLED}</macro>
+                                <value>1</value>
+                                <operator>8</operator>
+                                <formulaid>A</formulaid>
+                            </condition>
+                        </conditions>
+                    </filter>
                     <lifetime>30</lifetime>
                     <description>Discovery disks in /dev and add S.M.A.RT Itens , Triggers and Graphs</description>
                     <item_prototypes>
@@ -1419,6 +1430,15 @@ Some S.M.A.R.T. utilities will report a negative number for the raw value since 
                         </item_prototype>
                     </item_prototypes>
                     <trigger_prototypes>
+					    <trigger_prototype>
+                            <expression>{Template HDD S.M.A.R.T:uHDD.I[{#DISKNAME},Serial Number].diff(0)}=1</expression>
+                            <name>Disk problem (Disk has been canged) on {#DISKNAME}</name>
+                            <url/>
+                            <status>0</status>
+                            <priority>1</priority>
+                            <description>Disk has been changed in the host</description>
+                            <type>0</type>
+                        </trigger_prototype>
                         <trigger_prototype>
                             <expression>{Template HDD S.M.A.R.T:uHDD[{#DISKNAME},Reallocated_Sector_Ct].last(0)}&gt;0</expression>
                             <name>Disk problem ([005] Reallocated Sectors) on {#DISKNAME}</name>
