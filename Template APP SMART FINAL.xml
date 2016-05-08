@@ -24,7 +24,7 @@
             <items/>
             <discovery_rules>
                 <discovery_rule>
-                    <name>S.M.A.R.T Disk discovery</name>
+                    <key>uHDD.discovery</key>
                     <type>0</type>
                     <snmp_community/>
                     <snmp_oid/>
@@ -1513,12 +1513,12 @@ However some drives will not immediately remap such sectors when written; instea
                             <type>0</type>
                         </trigger_prototype>
                         <trigger_prototype>
-                            <expression>{Template HDD S.M.A.R.T:uHDD.H[{#DISKNAME}].str(PASSED,#1)}#1</expression>
+                            <expression>{Template HDD S.M.A.R.T:uHDD.H[{#DISKNAME}].str(&quot;FAILED!&quot;)}=1</expression>
                             <name>OVERALL HEALTH Self-Assessment Test on {#DISKNAME}</name>
                             <url/>
                             <status>0</status>
                             <priority>4</priority>
-                            <description>If test result is NOT PASSED, then that means the SMART firmware believes that the drive is in imminent danger of catastrophic failure, so it is imperative to copy off ALL important data. Usually, it is best to copy off the most important files, then the next most important files, then the next, and so on, because the drive may completely quit before you finish copying.</description>
+                            <description>If test result is FAILED, then that means the SMART firmware believes that the drive is in imminent danger of catastrophic failure, so it is imperative to copy off ALL important data. Usually, it is best to copy off the most important files, then the next most important files, then the next, and so on, because the drive may completely quit before you finish copying.</description>
                             <type>0</type>
                         </trigger_prototype>
                         <trigger_prototype>
