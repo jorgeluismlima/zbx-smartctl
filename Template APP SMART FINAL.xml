@@ -47,7 +47,7 @@
                     <port/>
                     <filter>({#SMART_ENABLED}=1):</filter>
                     <lifetime>30</lifetime>
-                    <description>Discovery disks in /dev and add S.M.A.RT Itens , Triggers and Graphs</description>
+                    <description>Discovery disks in /dev , check if S.MA.R.T feature is enable , add S.M.A.RT Itens ,add Triggers and Graphs</description>
                     <item_prototypes>
                         <item_prototype>
                             <name>{#DISKNAME} ATTRIBUTES - [001] Raw_Read_Error_Rate</name>
