@@ -55,7 +55,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>hdd.smart[{#DISKNAME},Raw_Read_Error_Rate]</key>
+                            <key>uHDD[{#DISKNAME},Raw_Read_Error_Rate]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -94,7 +94,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>hdd.smart[{#DISKNAME},Throughput_Performance]</key>
+                            <key>uHDD[{#DISKNAME},Throughput_Performance]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -133,7 +133,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>hdd.smart[{#DISKNAME},Spin_Up_Time]</key>
+                            <key>uHDD[{#DISKNAME},Spin_Up_Time]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -172,7 +172,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>hdd.smart[{#DISKNAME},Start_Stop_Count]</key>
+                            <key>uHDD[{#DISKNAME},Start_Stop_Count]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -211,7 +211,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>hdd.smart[{#DISKNAME},Reallocated_Sector_Ct]</key>
+                            <key>uHDD[{#DISKNAME},Reallocated_Sector_Ct]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -250,7 +250,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>hdd.smart[{#DISKNAME},Seek_Error_Rate]</key>
+                            <key>uHDD[{#DISKNAME},Seek_Error_Rate]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -289,7 +289,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>hdd.smart[{#DISKNAME},Seek_Time_Performance]</key>
+                            <key>uHDD[{#DISKNAME},Seek_Time_Performance]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -328,7 +328,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>hdd.smart[{#DISKNAME},Power_On_Hours]</key>
+                            <key>uHDD[{#DISKNAME},Power_On_Hours]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -367,7 +367,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>hdd.smart[{#DISKNAME},Spin_Retry_Count]</key>
+                            <key>uHDD[{#DISKNAME},Spin_Retry_Count]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -406,7 +406,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>hdd.smart[{#DISKNAME},Calibration_Retry_Count]</key>
+                            <key>uHDD[{#DISKNAME},Calibration_Retry_Count]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -445,7 +445,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>hdd.smart[{#DISKNAME},Power_Cycle_Count]</key>
+                            <key>uHDD[{#DISKNAME},Power_Cycle_Count]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -484,7 +484,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>hdd.smart[{#DISKNAME},Runtime_Bad_Block]</key>
+                            <key>uHDD[{#DISKNAME},Runtime_Bad_Block]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -523,7 +523,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>hdd.smart[{#DISKNAME},End-to-End_Error]</key>
+                            <key>uHDD[{#DISKNAME},End-to-End_Error]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -562,7 +562,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>hdd.smart[{#DISKNAME},Reported_Uncorrect]</key>
+                            <key>uHDD[{#DISKNAME},Reported_Uncorrect]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -601,7 +601,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>hdd.smart[{#DISKNAME},Command_Timeout]</key>
+                            <key>uHDD[{#DISKNAME},Command_Timeout]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -640,7 +640,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>hdd.smart[{#DISKNAME},High_Fly_Writes]</key>
+                            <key>uHDD[{#DISKNAME},High_Fly_Writes]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -680,7 +680,7 @@ This feature is implemented in most modern Seagate drives and some of Western Di
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>hdd.smart[{#DISKNAME},Airflow_Temperature_Cel]</key>
+                            <key>uHDD[{#DISKNAME},Airflow_Temperature_Cel]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -719,7 +719,7 @@ This feature is implemented in most modern Seagate drives and some of Western Di
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>hdd.smart[{#DISKNAME},G-Sense_Error_Rate]</key>
+                            <key>uHDD[{#DISKNAME},G-Sense_Error_Rate]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -758,7 +758,7 @@ This feature is implemented in most modern Seagate drives and some of Western Di
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>hdd.smart[{#DISKNAME},Power-Off_Retract_Count]</key>
+                            <key>uHDD[{#DISKNAME},Power-Off_Retract_Count]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -797,7 +797,7 @@ This feature is implemented in most modern Seagate drives and some of Western Di
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>hdd.smart[{#DISKNAME},Load_Cycle_Count]</key>
+                            <key>uHDD[{#DISKNAME},Load_Cycle_Count]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -837,7 +837,7 @@ The typical lifetime rating for laptop (2.5-in) hard drives is 200,000 to 600,00
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>hdd.smart[{#DISKNAME},Temperature_Celsius]</key>
+                            <key>uHDD[{#DISKNAME},Temperature_Celsius]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -876,7 +876,7 @@ The typical lifetime rating for laptop (2.5-in) hard drives is 200,000 to 600,00
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>hdd.smart[{#DISKNAME},Hardware_ECC_Recovered]</key>
+                            <key>uHDD[{#DISKNAME},Hardware_ECC_Recovered]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -915,7 +915,7 @@ The typical lifetime rating for laptop (2.5-in) hard drives is 200,000 to 600,00
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>hdd.smart[{#DISKNAME},Reallocated_Event_Count]</key>
+                            <key>uHDD[{#DISKNAME},Reallocated_Event_Count]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -954,7 +954,7 @@ The typical lifetime rating for laptop (2.5-in) hard drives is 200,000 to 600,00
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>hdd.smart[{#DISKNAME},Current_Pending_Sector]</key>
+                            <key>uHDD[{#DISKNAME},Current_Pending_Sector]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -993,7 +993,7 @@ The typical lifetime rating for laptop (2.5-in) hard drives is 200,000 to 600,00
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>hdd.smart[{#DISKNAME},Offline_Uncorrectable]</key>
+                            <key>uHDD[{#DISKNAME},Offline_Uncorrectable]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -1032,7 +1032,7 @@ The typical lifetime rating for laptop (2.5-in) hard drives is 200,000 to 600,00
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>hdd.smart[{#DISKNAME},UDMA_CRC_Error_Count]</key>
+                            <key>uHDD[{#DISKNAME},UDMA_CRC_Error_Count]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -1071,7 +1071,7 @@ The typical lifetime rating for laptop (2.5-in) hard drives is 200,000 to 600,00
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>hdd.smart[{#DISKNAME},Multi_Zone_Error_Rate]</key>
+                            <key>uHDD[{#DISKNAME},Multi_Zone_Error_Rate]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -1110,7 +1110,7 @@ The typical lifetime rating for laptop (2.5-in) hard drives is 200,000 to 600,00
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>hdd.smart[{#DISKNAME},Head_Flying_Hours]</key>
+                            <key>uHDD[{#DISKNAME},Head_Flying_Hours]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -1149,7 +1149,7 @@ The typical lifetime rating for laptop (2.5-in) hard drives is 200,000 to 600,00
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>hdd.smart[{#DISKNAME},Total_LBAs_Written]</key>
+                            <key>uHDD[{#DISKNAME},Total_LBAs_Written]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -1188,7 +1188,7 @@ The typical lifetime rating for laptop (2.5-in) hard drives is 200,000 to 600,00
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>hdd.smart[{#DISKNAME},Total_LBAs_Read]</key>
+                            <key>uHDD[{#DISKNAME},Total_LBAs_Read]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -1228,7 +1228,7 @@ Some S.M.A.R.T. utilities will report a negative number for the raw value since 
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>hdd.smart.L[{#DISKNAME}]</key>
+                            <key>uHDD.L[{#DISKNAME}]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -1267,7 +1267,7 @@ Some S.M.A.R.T. utilities will report a negative number for the raw value since 
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>hdd.smart.I[{#DISKNAME},Device Model]</key>
+                            <key>uHDD.I[{#DISKNAME},Device Model]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -1306,7 +1306,7 @@ Some S.M.A.R.T. utilities will report a negative number for the raw value since 
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>hdd.smart.I[{#DISKNAME},Model Family]</key>
+                            <key>uHDD.I[{#DISKNAME},Model Family]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -1345,7 +1345,7 @@ Some S.M.A.R.T. utilities will report a negative number for the raw value since 
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>hdd.smart.I[{#DISKNAME},Serial Number]</key>
+                            <key>uHDD.I[{#DISKNAME},Serial Number]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -1384,7 +1384,7 @@ Some S.M.A.R.T. utilities will report a negative number for the raw value since 
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>hdd.smart.H[{#DISKNAME}]</key>
+                            <key>uHDD.H[{#DISKNAME}]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -1420,7 +1420,7 @@ Some S.M.A.R.T. utilities will report a negative number for the raw value since 
                     </item_prototypes>
                     <trigger_prototypes>
                         <trigger_prototype>
-                            <expression>{Template HDD S.M.A.R.T:hdd.smart[{#DISKNAME},Reallocated_Sector_Ct].last(0)}&gt;0</expression>
+                            <expression>{Template HDD S.M.A.R.T:uHDD[{#DISKNAME},Reallocated_Sector_Ct].last(0)}&gt;0</expression>
                             <name>Disk problem ([005] Reallocated Sectors) on {#DISKNAME}</name>
                             <url/>
                             <status>0</status>
@@ -1429,7 +1429,7 @@ Some S.M.A.R.T. utilities will report a negative number for the raw value since 
                             <type>0</type>
                         </trigger_prototype>
                         <trigger_prototype>
-                            <expression>{Template HDD S.M.A.R.T:hdd.smart[{#DISKNAME},Spin_Retry_Count].last(0)}&gt;0</expression>
+                            <expression>{Template HDD S.M.A.R.T:uHDD[{#DISKNAME},Spin_Retry_Count].last(0)}&gt;0</expression>
                             <name>Disk problem ([010] Spin Retry) on {#DISKNAME}</name>
                             <url/>
                             <status>0</status>
@@ -1438,7 +1438,7 @@ Some S.M.A.R.T. utilities will report a negative number for the raw value since 
                             <type>0</type>
                         </trigger_prototype>
                         <trigger_prototype>
-                            <expression>{Template HDD S.M.A.R.T:hdd.smart[{#DISKNAME},End-to-End_Error].last(0)}&gt;0</expression>
+                            <expression>{Template HDD S.M.A.R.T:uHDD[{#DISKNAME},End-to-End_Error].last(0)}&gt;0</expression>
                             <name>Disk problem ([184] End-to-End Error) on {#DISKNAME}</name>
                             <url/>
                             <status>0</status>
@@ -1447,7 +1447,7 @@ Some S.M.A.R.T. utilities will report a negative number for the raw value since 
                             <type>0</type>
                         </trigger_prototype>
                         <trigger_prototype>
-                            <expression>{Template HDD S.M.A.R.T:hdd.smart[{#DISKNAME},Command_Timeout].last(0)}&gt;0</expression>
+                            <expression>{Template HDD S.M.A.R.T:uHDD[{#DISKNAME},Command_Timeout].last(0)}&gt;0</expression>
                             <name>Disk problem ([188] Command Timeout) on {#DISKNAME}</name>
                             <url/>
                             <status>0</status>
@@ -1456,7 +1456,7 @@ Some S.M.A.R.T. utilities will report a negative number for the raw value since 
                             <type>0</type>
                         </trigger_prototype>
                         <trigger_prototype>
-                            <expression>{Template HDD S.M.A.R.T:hdd.smart[{#DISKNAME},Reallocated_Event_Count].last(0)}&gt;0</expression>
+                            <expression>{Template HDD S.M.A.R.T:uHDD[{#DISKNAME},Reallocated_Event_Count].last(0)}&gt;0</expression>
                             <name>Disk problem ([196] Reallocated Event Count) on {#DISKNAME}</name>
                             <url/>
                             <status>0</status>
@@ -1465,7 +1465,7 @@ Some S.M.A.R.T. utilities will report a negative number for the raw value since 
                             <type>0</type>
                         </trigger_prototype>
                         <trigger_prototype>
-                            <expression>{Template HDD S.M.A.R.T:hdd.smart[{#DISKNAME},Current_Pending_Sector].last(0)}&gt;0</expression>
+                            <expression>{Template HDD S.M.A.R.T:uHDD[{#DISKNAME},Current_Pending_Sector].last(0)}&gt;0</expression>
                             <name>Disk problem ([197] Current Pending Sector) on {#DISKNAME}</name>
                             <url/>
                             <status>0</status>
@@ -1475,7 +1475,7 @@ However some drives will not immediately remap such sectors when written; instea
                             <type>0</type>
                         </trigger_prototype>
                         <trigger_prototype>
-                            <expression>{Template HDD S.M.A.R.T:hdd.smart[{#DISKNAME},Offline_Uncorrectable].last(0)}&gt;0</expression>
+                            <expression>{Template HDD S.M.A.R.T:uHDD[{#DISKNAME},Offline_Uncorrectable].last(0)}&gt;0</expression>
                             <name>Disk problem ([198] Offline Uncorrectable) on {#DISKNAME}</name>
                             <url/>
                             <status>0</status>
@@ -1484,7 +1484,7 @@ However some drives will not immediately remap such sectors when written; instea
                             <type>0</type>
                         </trigger_prototype>
                         <trigger_prototype>
-                            <expression>{Template HDD S.M.A.R.T:hdd.smart[{#DISKNAME},Temperature_Celsius].avg(#3)}&gt;60</expression>
+                            <expression>{Template HDD S.M.A.R.T:uHDD[{#DISKNAME},Temperature_Celsius].avg(#3)}&gt;60</expression>
                             <name>High disk temperature on {#DISKNAME}</name>
                             <url/>
                             <status>0</status>
@@ -1493,7 +1493,7 @@ However some drives will not immediately remap such sectors when written; instea
                             <type>0</type>
                         </trigger_prototype>
                         <trigger_prototype>
-                            <expression>{Template HDD S.M.A.R.T:hdd.smart.H[{#DISKNAME}].str(PASSED,#1)}#1</expression>
+                            <expression>{Template HDD S.M.A.R.T:uHDD.H[{#DISKNAME}].str(PASSED,#1)}#1</expression>
                             <name>OVERALL HEALTH Self-Assessment Test on {#DISKNAME}</name>
                             <url/>
                             <status>0</status>
@@ -1502,7 +1502,7 @@ However some drives will not immediately remap such sectors when written; instea
                             <type>0</type>
                         </trigger_prototype>
                         <trigger_prototype>
-                            <expression>{Template HDD S.M.A.R.T:hdd.smart[{#DISKNAME},UDMA_CRC_Error_Count].last(0)}&gt;0</expression>
+                            <expression>{Template HDD S.M.A.R.T:uHDD[{#DISKNAME},UDMA_CRC_Error_Count].last(0)}&gt;0</expression>
                             <name>UDMA disk errors on {#DISKNAME}</name>
                             <url/>
                             <status>0</status>
@@ -1539,7 +1539,7 @@ However some drives will not immediately remap such sectors when written; instea
                                     <type>0</type>
                                     <item>
                                         <host>Template HDD S.M.A.R.T</host>
-                                        <key>hdd.smart[{#DISKNAME},Temperature_Celsius]</key>
+                                        <key>uHDD[{#DISKNAME},Temperature_Celsius]</key>
                                     </item>
                                 </graph_item>
                             </graph_items>
@@ -1571,7 +1571,7 @@ However some drives will not immediately remap such sectors when written; instea
                                     <type>0</type>
                                     <item>
                                         <host>Template HDD S.M.A.R.T</host>
-                                        <key>hdd.smart[{#DISKNAME},End-to-End_Error]</key>
+                                        <key>uHDD[{#DISKNAME},End-to-End_Error]</key>
                                     </item>
                                 </graph_item>
                                 <graph_item>
@@ -1583,7 +1583,7 @@ However some drives will not immediately remap such sectors when written; instea
                                     <type>0</type>
                                     <item>
                                         <host>Template HDD S.M.A.R.T</host>
-                                        <key>hdd.smart[{#DISKNAME},Hardware_ECC_Recovered]</key>
+                                        <key>uHDD[{#DISKNAME},Hardware_ECC_Recovered]</key>
                                     </item>
                                 </graph_item>
                                 <graph_item>
@@ -1595,7 +1595,7 @@ However some drives will not immediately remap such sectors when written; instea
                                     <type>0</type>
                                     <item>
                                         <host>Template HDD S.M.A.R.T</host>
-                                        <key>hdd.smart[{#DISKNAME},High_Fly_Writes]</key>
+                                        <key>uHDD[{#DISKNAME},High_Fly_Writes]</key>
                                     </item>
                                 </graph_item>
                                 <graph_item>
@@ -1607,7 +1607,7 @@ However some drives will not immediately remap such sectors when written; instea
                                     <type>0</type>
                                     <item>
                                         <host>Template HDD S.M.A.R.T</host>
-                                        <key>hdd.smart[{#DISKNAME},Power_Cycle_Count]</key>
+                                        <key>uHDD[{#DISKNAME},Power_Cycle_Count]</key>
                                     </item>
                                 </graph_item>
                                 <graph_item>
@@ -1619,7 +1619,7 @@ However some drives will not immediately remap such sectors when written; instea
                                     <type>0</type>
                                     <item>
                                         <host>Template HDD S.M.A.R.T</host>
-                                        <key>hdd.smart[{#DISKNAME},Power_On_Hours]</key>
+                                        <key>uHDD[{#DISKNAME},Power_On_Hours]</key>
                                     </item>
                                 </graph_item>
                                 <graph_item>
@@ -1631,7 +1631,7 @@ However some drives will not immediately remap such sectors when written; instea
                                     <type>0</type>
                                     <item>
                                         <host>Template HDD S.M.A.R.T</host>
-                                        <key>hdd.smart[{#DISKNAME},Raw_Read_Error_Rate]</key>
+                                        <key>uHDD[{#DISKNAME},Raw_Read_Error_Rate]</key>
                                     </item>
                                 </graph_item>
                                 <graph_item>
@@ -1643,7 +1643,7 @@ However some drives will not immediately remap such sectors when written; instea
                                     <type>0</type>
                                     <item>
                                         <host>Template HDD S.M.A.R.T</host>
-                                        <key>hdd.smart[{#DISKNAME},Reallocated_Event_Count]</key>
+                                        <key>uHDD[{#DISKNAME},Reallocated_Event_Count]</key>
                                     </item>
                                 </graph_item>
                                 <graph_item>
@@ -1655,7 +1655,7 @@ However some drives will not immediately remap such sectors when written; instea
                                     <type>0</type>
                                     <item>
                                         <host>Template HDD S.M.A.R.T</host>
-                                        <key>hdd.smart[{#DISKNAME},Reallocated_Sector_Ct]</key>
+                                        <key>uHDD[{#DISKNAME},Reallocated_Sector_Ct]</key>
                                     </item>
                                 </graph_item>
                                 <graph_item>
@@ -1667,7 +1667,7 @@ However some drives will not immediately remap such sectors when written; instea
                                     <type>0</type>
                                     <item>
                                         <host>Template HDD S.M.A.R.T</host>
-                                        <key>hdd.smart[{#DISKNAME},Reported_Uncorrect]</key>
+                                        <key>uHDD[{#DISKNAME},Reported_Uncorrect]</key>
                                     </item>
                                 </graph_item>
                                 <graph_item>
@@ -1679,7 +1679,7 @@ However some drives will not immediately remap such sectors when written; instea
                                     <type>0</type>
                                     <item>
                                         <host>Template HDD S.M.A.R.T</host>
-                                        <key>hdd.smart[{#DISKNAME},Seek_Error_Rate]</key>
+                                        <key>uHDD[{#DISKNAME},Seek_Error_Rate]</key>
                                     </item>
                                 </graph_item>
                                 <graph_item>
@@ -1691,7 +1691,7 @@ However some drives will not immediately remap such sectors when written; instea
                                     <type>0</type>
                                     <item>
                                         <host>Template HDD S.M.A.R.T</host>
-                                        <key>hdd.smart[{#DISKNAME},Spin_Retry_Count]</key>
+                                        <key>uHDD[{#DISKNAME},Spin_Retry_Count]</key>
                                     </item>
                                 </graph_item>
                                 <graph_item>
@@ -1703,7 +1703,7 @@ However some drives will not immediately remap such sectors when written; instea
                                     <type>0</type>
                                     <item>
                                         <host>Template HDD S.M.A.R.T</host>
-                                        <key>hdd.smart[{#DISKNAME},Spin_Up_Time]</key>
+                                        <key>uHDD[{#DISKNAME},Spin_Up_Time]</key>
                                     </item>
                                 </graph_item>
                                 <graph_item>
@@ -1715,7 +1715,7 @@ However some drives will not immediately remap such sectors when written; instea
                                     <type>0</type>
                                     <item>
                                         <host>Template HDD S.M.A.R.T</host>
-                                        <key>hdd.smart[{#DISKNAME},Start_Stop_Count]</key>
+                                        <key>uHDD[{#DISKNAME},Start_Stop_Count]</key>
                                     </item>
                                 </graph_item>
                                 <graph_item>
@@ -1727,7 +1727,7 @@ However some drives will not immediately remap such sectors when written; instea
                                     <type>0</type>
                                     <item>
                                         <host>Template HDD S.M.A.R.T</host>
-                                        <key>hdd.smart[{#DISKNAME},UDMA_CRC_Error_Count]</key>
+                                        <key>uHDD[{#DISKNAME},UDMA_CRC_Error_Count]</key>
                                     </item>
                                 </graph_item>
                             </graph_items>
