@@ -24,11 +24,11 @@
             <items/>
             <discovery_rules>
                 <discovery_rule>
-                    <key>uHDD.discovery</key>
+					<name>S.M.A.R.T Disk discovery</name>
                     <type>0</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>hdd_discovery</key>
+                    <key>uHDD.discovery</key>
                     <delay>3600</delay>
                     <status>0</status>
                     <allowed_hosts/>
