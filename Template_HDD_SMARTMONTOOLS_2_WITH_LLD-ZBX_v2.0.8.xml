@@ -1421,7 +1421,7 @@ Some S.M.A.R.T. utilities will report a negative number for the raw value since 
                     <trigger_prototypes>
 					    <trigger_prototype>
                             <expression>{Template HDD S.M.A.R.T:uHDD.I[{#DISKNAME},Serial Number].diff(0)}=1</expression>
-                            <name>Disk problem (Disk has been canged) on {#DISKNAME}</name>
+                            <name>Disk problem (Disk has been changed) on {#DISKNAME}</name>
                             <url/>
                             <status>0</status>
                             <priority>1</priority>
